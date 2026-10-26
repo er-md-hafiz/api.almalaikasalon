@@ -439,12 +439,12 @@
   "franchise": {
     "enabled": true,
     "title": "Al-Malaika Life Style Salon",
-    "subtitle": "4.6 Google reviews • Barber shop in Jharkhand",
-    "description": "You manage this Business Profile.",
+    "subtitle": "4.615 Google reviews • Barber shop in Jharkhand",
+    "description": "You manage this Business Profile",
     "investment": "",
     "franchiseFee": "",
     "shopArea": "",
-    "preferredLocation": "Alfalah Colony, Pugmil, Hazaribagh, Jharkhand",
+    "preferredLocation": "Alfalah Colony, Pugmil, Hazaribagh, Jharkhand 825319",
     "expectedROI": "",
     "support": [],
     "requirements": [],
@@ -452,8 +452,26 @@
     "contactPerson": "Al-Malaika Life Style Salon",
     "contactNumber": "09708101242",
     "email": "",
-    "whatsApp": "09708101242",
+    "whatsApp": "919708101242",
     "website": "",
-    "bannerImage": ""
+    "bannerImage": "",
+    "branches": [
+      {
+        "id": "branch_hazaribagh_main",
+        "name": "Al-Malaika Life Style Salon - Pugmil",
+        "tagline": "Main Flagship Studio",
+        "address": "Alfalah Colony, Pugmil, Hazaribagh, Jharkhand 825319",
+        "phone": "09708101242",
+        "whatsapp": "919708101242",
+        "latitude": 23.9937,
+        "longitude": 85.3648,
+        "googleMapsUrl": "https://maps.google.com/?q=Alfalah+Colony+Pugmil+Hazaribagh+Jharkhand+825319",
+        "openingTime": "09:00 AM",
+        "closingTime": "09:00 PM",
+        "timings": "Monday - Sunday: 9:00 AM - 9:00 PM (Open all 7 days)",
+        "enabled": true,
+        "isPrimary": true
+      }
+    ]
   }
 }
