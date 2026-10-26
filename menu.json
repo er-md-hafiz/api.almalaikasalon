@@ -384,9 +384,9 @@
     "shareMessage": "Discover Al-Malaika Salon – For Men. Explore our grooming services and contact us for details.",
     "supportEmail": "",
     "supportPhone": "",
-    "privacyPolicyUrl": "https://er-md-hafiz.github.io/salon/privacy.html",
-    "termsUrl": "",
-    "aboutUs": "",
+    "privacyPolicyUrl": "https://er-md-hafiz.github.io/api.almalaikasalon/privacy.html",
+    "termsUrl": "https://er-md-hafiz.github.io/api.almalaikasalon/terms.html",
+    "aboutUs": "https://er-md-hafiz.github.io/api.almalaikasalon/aboutus.html",
     "darkModeEnabled": true,
     "notificationEnabled": true,
     "menuItems": [
