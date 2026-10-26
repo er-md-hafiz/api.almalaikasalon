@@ -1,0 +1,459 @@
+{
+  "metadata": {
+    "schemaVersion": "1.1.0",
+    "lastUpdated": "2026-10-26",
+    "locale": "en-IN",
+    "currencyCode": "INR"
+  },
+  "salon": {
+    "id": 1,
+    "name": "Al-Malaika Salon",
+    "about": "Premium men's haircuts, beard styling and grooming services in Hazaribagh.",
+    "tagline": "Royal Grooming. Timeless Style.",
+    "address": "Pugmil, Hazaribagh, Jharkhand, India",
+    "mobileNumber": "",
+    "mobileNumberDial": "",
+    "email": "",
+    "whatsappUrl": "",
+    "rating": 0,
+    "totalReviews": 0,
+    "latitude": 23.9988,
+    "longitude": 85.3612,
+    "openingHours": "08:00 AM – 09:30 PM",
+    "workingDays": "Monday – Sunday",
+    "mapsEmbedUrl": "https://maps.google.com/maps?q=23.9988,85.3612&z=16&output=embed",
+    "mapsSearchUrl": "https://www.google.com/maps/search/Al-Malaika+Salon+Hazaribagh+Jharkhand",
+    "playStoreUrl": "",
+    "social": {
+      "instagram": "",
+      "facebook": ""
+    }
+  },
+  "banners": [
+    {
+      "id": 1,
+      "imageUrl": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=800&q=80",
+      "title": "Royal Grooming\nExperience",
+      "subtitle": "Haircuts • Beard • Styling",
+      "category": "SERVICES",
+      "serviceType": "SALON",
+      "isAvailable": true
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=800&q=80",
+      "title": "Precision Haircuts",
+      "subtitle": "Your style, perfected",
+      "category": "HAIR",
+      "serviceType": "SALON",
+      "isAvailable": true
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://images.unsplash.com/photo-1599011176306-4a96f1516d4d?auto=format&fit=crop&w=800&q=80",
+      "title": "Signature Beard Styling",
+      "subtitle": "Sharp lines. Confident looks.",
+      "category": "BEARD",
+      "serviceType": "SALON",
+      "isAvailable": true
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=800&q=80",
+      "title": "Look Your Best",
+      "subtitle": "Professional styling for every occasion",
+      "category": "STYLING",
+      "serviceType": "SALON",
+      "isAvailable": true
+    }
+  ],
+  "quickServices": [
+    {
+      "id": 1,
+      "name": "Classic Haircut",
+      "description": "A clean, precise haircut tailored to your preferred style.",
+      "price": 150,
+      "imageUrl": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=400&q=80",
+      "category": "HAIR",
+      "serviceType": "SALON",
+      "isAvailable": true
+    },
+    {
+      "id": 2,
+      "name": "Beard Trim",
+      "description": "Professional beard trimming and shaping.",
+      "price": 80,
+      "imageUrl": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=400&q=80",
+      "category": "BEARD",
+      "serviceType": "SALON",
+      "isAvailable": true
+    },
+    {
+      "id": 3,
+      "name": "Premium Haircut",
+      "description": "Detailed haircut with a premium finishing touch.",
+      "price": 250,
+      "imageUrl": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=400&q=80",
+      "category": "HAIR",
+      "serviceType": "SALON",
+      "isAvailable": true
+    },
+    {
+      "id": 4,
+      "name": "Clean Shave",
+      "description": "A neat shave for a clean, refreshed look.",
+      "price": 100,
+      "imageUrl": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=400&q=80",
+      "category": "SHAVING",
+      "serviceType": "SALON",
+      "isAvailable": true
+    },
+    {
+      "id": 5,
+      "name": "Hair Styling",
+      "description": "Style your hair for everyday wear or special occasions.",
+      "price": 120,
+      "imageUrl": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=400&q=80",
+      "category": "STYLING",
+      "serviceType": "SALON",
+      "isAvailable": true
+    },
+    {
+      "id": 6,
+      "name": "Kids Haircut",
+      "description": "Comfortable, age-appropriate haircuts for children.",
+      "price": 120,
+      "imageUrl": "https://plus.unsplash.com/premium_photo-1677098576397-d3403bf838a0?auto=format&fit=crop&w=400&q=80",
+      "category": "KIDS",
+      "serviceType": "SALON",
+      "isAvailable": true
+    }
+  ],
+  "popularServices": [
+    {
+      "id": 101,
+      "name": "Signature Haircut",
+      "description": "A detailed haircut with personalised styling.",
+      "price": 250,
+      "imageUrl": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=400&q=80",
+      "category": "HAIR",
+      "serviceType": "SALON",
+      "isAvailable": true
+    },
+    {
+      "id": 102,
+      "name": "Beard Styling",
+      "description": "Precision beard shaping and finishing.",
+      "price": 150,
+      "imageUrl": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=400&q=80",
+      "category": "BEARD",
+      "serviceType": "SALON",
+      "isAvailable": true
+    },
+    {
+      "id": 103,
+      "name": "Haircut and Beard Combo",
+      "description": "A coordinated haircut and beard grooming experience.",
+      "price": 300,
+      "imageUrl": "https://images.unsplash.com/photo-1599011176306-4a96f1516d4d?auto=format&fit=crop&w=400&q=80",
+      "category": "PACKAGE",
+      "serviceType": "SALON",
+      "isAvailable": true
+    },
+    {
+      "id": 104,
+      "name": "Clean Shave",
+      "description": "Traditional clean shaving service.",
+      "price": 100,
+      "imageUrl": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=400&q=80",
+      "category": "SHAVING",
+      "serviceType": "SALON",
+      "isAvailable": true
+    },
+    {
+      "id": 105,
+      "name": "Hair Colour",
+      "description": "Hair colouring service tailored to your selected look.",
+      "price": 699,
+      "imageUrl": "https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=400&q=80",
+      "category": "COLOUR",
+      "serviceType": "SALON",
+      "isAvailable": true
+    },
+    {
+      "id": 106,
+      "name": "Head Massage",
+      "description": "A relaxing scalp massage.",
+      "price": 199,
+      "imageUrl": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=400&q=80",
+      "category": "MASSAGE",
+      "serviceType": "SALON",
+      "isAvailable": true
+    },
+    {
+      "id": 107,
+      "name": "Kids Haircut",
+      "description": "A neat haircut for kids in a comfortable setting.",
+      "price": 120,
+      "imageUrl": "https://plus.unsplash.com/premium_photo-1677098576397-d3403bf838a0?auto=format&fit=crop&w=400&q=80",
+      "category": "KIDS",
+      "serviceType": "SALON",
+      "isAvailable": true
+    },
+    {
+      "id": 108,
+      "name": "Complete Grooming Package",
+      "description": "A convenient combination of haircut, beard trim and styling.",
+      "price": 399,
+      "imageUrl": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=400&q=80",
+      "category": "PACKAGE",
+      "serviceType": "SALON",
+      "isAvailable": true
+    }
+  ],
+  "homeServices": [],
+  "homeServiceBooking": {
+    "enabled": false,
+    "minimumBookingAmount": 0,
+    "serviceCharge": 0,
+    "freeServiceChargeAbove": 0,
+    "advanceBookingHours": 2,
+    "bookingMessage": "Contact Al-Malaika Salon to enquire about available services.",
+    "availableDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "timeSlots": []
+  },
+  "priceList": [
+    {
+      "id": 1,
+      "name": "Classic Haircut",
+      "price": 150,
+      "category": "HAIR",
+      "description": "Classic precision haircut"
+    },
+    {
+      "id": 2,
+      "name": "Premium Haircut",
+      "price": 250,
+      "category": "HAIR",
+      "description": "Detailed premium haircut"
+    },
+    {
+      "id": 3,
+      "name": "Beard Trim",
+      "price": 80,
+      "category": "BEARD",
+      "description": "Beard trimming and shaping"
+    },
+    {
+      "id": 4,
+      "name": "Beard Styling",
+      "price": 150,
+      "category": "BEARD",
+      "description": "Precision beard styling"
+    },
+    {
+      "id": 5,
+      "name": "Clean Shave",
+      "price": 100,
+      "category": "SHAVING",
+      "description": "Traditional clean shave"
+    },
+    {
+      "id": 6,
+      "name": "Hair Styling",
+      "price": 120,
+      "category": "STYLING",
+      "description": "Professional hair styling"
+    },
+    {
+      "id": 7,
+      "name": "Hair Colour",
+      "price": 699,
+      "category": "COLOUR",
+      "description": "Hair colour service"
+    },
+    {
+      "id": 8,
+      "name": "Head Massage",
+      "price": 199,
+      "category": "MASSAGE",
+      "description": "Relaxing head massage"
+    },
+    {
+      "id": 9,
+      "name": "Kids Haircut",
+      "price": 120,
+      "category": "KIDS",
+      "description": "Haircut for children"
+    },
+    {
+      "id": 10,
+      "name": "Haircut and Beard Combo",
+      "price": 300,
+      "category": "PACKAGE",
+      "description": "Haircut and beard grooming combo"
+    },
+    {
+      "id": 11,
+      "name": "Complete Grooming Package",
+      "price": 399,
+      "category": "PACKAGE",
+      "description": "Haircut, beard trim and styling"
+    }
+  ],
+  "offers": [],
+  "reviews": [],
+  "barbers": [
+    {
+      "id": 1,
+      "name": "Any Available",
+      "expertise": "Choose your preferred available barber",
+      "imageUrl": ""
+    }
+  ],
+  "galleryItems": [
+    {
+      "id": 1,
+      "imageUrl": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=600&q=80",
+      "title": "Classic Haircut",
+      "aspectRatio": 1.0
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=600&q=80",
+      "title": "Beard Styling",
+      "aspectRatio": 1.0
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://images.unsplash.com/photo-1599011176306-4a96f1516d4d?auto=format&fit=crop&w=600&q=80",
+      "title": "Professional Grooming",
+      "aspectRatio": 1.0
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "id": 1,
+      "icon": "star",
+      "title": "Personalised Grooming",
+      "description": "Services tailored to your preferred style."
+    },
+    {
+      "id": 2,
+      "icon": "content_cut",
+      "title": "Precision Haircuts",
+      "description": "Careful cutting and professional finishing."
+    },
+    {
+      "id": 3,
+      "icon": "health_and_safety",
+      "title": "Clean Equipment",
+      "description": "Focus on hygiene and clean grooming tools."
+    },
+    {
+      "id": 4,
+      "icon": "currency_rupee",
+      "title": "Transparent Pricing",
+      "description": "Clear service prices in Indian rupees."
+    },
+    {
+      "id": 5,
+      "icon": "workspace_premium",
+      "title": "Premium Experience",
+      "description": "A refined black-and-gold salon identity."
+    },
+    {
+      "id": 6,
+      "icon": "calendar_month",
+      "title": "Easy Enquiries",
+      "description": "Contact the salon to enquire about services."
+    }
+  ],
+  "timeSlots": [],
+  "profile": {
+    "appName": "Al-Malaika Salon",
+    "appVersion": "1.0.0",
+    "shareMessage": "Discover Al-Malaika Salon – For Men. Explore our grooming services and contact us for details.",
+    "supportEmail": "",
+    "supportPhone": "",
+    "privacyPolicyUrl": "https://er-md-hafiz.github.io/salon/privacy.html",
+    "termsUrl": "",
+    "aboutUs": "",
+    "darkModeEnabled": true,
+    "notificationEnabled": true,
+    "menuItems": [
+      {
+        "id": 1,
+        "title": "Dark Mode",
+        "type": "toggle",
+        "enabled": true,
+        "icon": "dark_mode"
+      },
+      {
+        "id": 2,
+        "title": "Notifications",
+        "type": "toggle",
+        "enabled": true,
+        "icon": "notifications"
+      },
+      {
+        "id": 3,
+        "title": "Contact Us",
+        "type": "contact",
+        "icon": "call"
+      },
+      {
+        "id": 4,
+        "title": "Location",
+        "type": "location",
+        "icon": "location_on"
+      },
+      {
+        "id": 5,
+        "title": "Share App",
+        "type": "share",
+        "icon": "share"
+      },
+      {
+        "id": 6,
+        "title": "Rate Us on Google Play",
+        "type": "rate",
+        "icon": "star"
+      },
+      {
+        "id": 7,
+        "title": "Privacy Policy",
+        "type": "privacy",
+        "icon": "privacy_tip"
+      }
+    ]
+  },
+  "franchise": {
+    "enabled": false,
+    "title": "",
+    "subtitle": "",
+    "description": "",
+    "investment": "",
+    "franchiseFee": "",
+    "shopArea": "",
+    "preferredLocation": "",
+    "expectedROI": "",
+    "support": [],
+    "requirements": [],
+    "benefits": [],
+    "contactPerson": "",
+    "contactNumber": "",
+    "email": "",
+    "whatsApp": "",
+    "website": "",
+    "bannerImage": ""
+  }
+}
