@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "schemaVersion": "1.1.0",
-    "uiConfigVersion": 2,
-    "lastUpdated": "2026-10-26",
+    "schemaVersion": "1.2.0",
+    "uiConfigVersion": 3,
+    "lastUpdated": "2026-10-27",
     "locale": "en-IN",
     "currencyCode": "INR",
     "description": "Remote configuration for Al-Malaika Salon Android app"
@@ -126,34 +126,53 @@
   },
   "login": {
     "id": "login",
-    "enabled": false,
-    "authMode": "none",
+    "enabled": true,
+    "authMode": "firebase_email_link",
     "allowGuest": true,
     "title": "Welcome Back",
-    "subtitle": "Sign-in is not currently required to browse salon services.",
+    "subtitle": "Sign in securely using your email.",
     "logoUrl": "",
     "backgroundColor": "#101010",
     "textColor": "#FFFFFF",
     "accentColor": "#D4AF37",
+    "showEmailLogin": true,
+    "showPasswordLogin": false,
     "showPhoneLogin": false,
-    "showEmailLogin": false,
-    "showRegister": false,
+    "showRegister": true,
     "showForgotPassword": false,
     "showGuestButton": true,
     "guestButtonText": "Continue as Guest",
-    "loginButtonText": "Continue",
+    "loginButtonText": "Sign In",
+    "emailLinkButtonText": "Send Sign-In Link",
+    "registerButtonText": "Create Account",
     "privacyPolicyUrl": "https://er-md-hafiz.github.io/api.almalaikasalon/privacy.html",
     "termsUrl": "https://er-md-hafiz.github.io/api.almalaikasalon/terms.html",
+    "registerDestination": "register",
+    "emailLinkSentDestination": "email_link_sent",
+    "successDestination": "home",
     "actions": [
+      {
+        "id": "send_email_link",
+        "type": "send_email_link",
+        "title": "Send Sign-In Link",
+        "enabled": true,
+        "destination": "email_link_sent"
+      },
       {
         "id": "continue_guest",
         "type": "continue_guest",
         "title": "Continue as Guest",
         "enabled": true,
         "destination": "home"
+      },
+      {
+        "id": "open_register",
+        "type": "navigate",
+        "title": "Create Account",
+        "enabled": true,
+        "destination": "register"
       }
-    ],
-    "note": "Enable an actual login flow only after a real authentication backend and native implementation are available."
+    ]
   },
   "screens": [
     {
@@ -291,6 +310,33 @@
       "showInBottomNavigation": false,
       "urlKey": "termsUrl",
       "requiresLogin": false
+    },
+    {
+      "id": "login",
+      "title": "Sign In",
+      "type": "login",
+      "enabled": true,
+      "showInDrawer": true,
+      "showInBottomNavigation": false,
+      "requiresLogin": false
+    },
+    {
+      "id": "register",
+      "title": "Create Account",
+      "type": "register",
+      "enabled": true,
+      "showInDrawer": false,
+      "showInBottomNavigation": false,
+      "requiresLogin": false
+    },
+    {
+      "id": "email_link_sent",
+      "title": "Check Your Email",
+      "type": "email_link_sent",
+      "enabled": true,
+      "showInDrawer": false,
+      "showInBottomNavigation": false,
+      "requiresLogin": false
     }
   ],
   "navigation": {
@@ -420,6 +466,15 @@
         "destination": "terms",
         "enabled": true,
         "order": 13
+      },
+      {
+        "id": "drawer_account",
+        "title": "Sign In / Register",
+        "icon": "account_circle",
+        "type": "navigate",
+        "destination": "login",
+        "enabled": true,
+        "order": 14
       }
     ],
     "bottomNavigationEnabled": true,
@@ -594,7 +649,7 @@
   },
   "featureFlags": {
     "onboarding": true,
-    "login": false,
+    "login": true,
     "guestMode": true,
     "homeBanners": true,
     "quickServices": true,
@@ -608,7 +663,10 @@
     "franchise": true,
     "darkMode": true,
     "notifications": true,
-    "remoteConfigRefresh": true
+    "remoteConfigRefresh": true,
+    "passwordlessEmailLink": true,
+    "emailRegistration": true,
+    "guestAccountLinking": true
   },
   "remoteConfig": {
     "url": "https://er-md-hafiz.github.io/api.almalaikasalon/menu.json",
@@ -1093,5 +1151,48 @@
         "isPrimary": true
       }
     ]
+  },
+  "register": {
+    "id": "register",
+    "enabled": true,
+    "authMode": "firebase_email_link",
+    "title": "Create Your Account",
+    "subtitle": "Register securely using your email address.",
+    "logoUrl": "",
+    "backgroundColor": "#101010",
+    "textColor": "#FFFFFF",
+    "accentColor": "#D4AF37",
+    "showFullName": true,
+    "showEmail": true,
+    "showPassword": false,
+    "showConfirmPassword": false,
+    "requireTermsAcceptance": true,
+    "sendEmailVerificationLink": true,
+    "termsUrl": "https://er-md-hafiz.github.io/api.almalaikasalon/terms.html",
+    "privacyPolicyUrl": "https://er-md-hafiz.github.io/api.almalaikasalon/privacy.html",
+    "loginDestination": "login",
+    "emailLinkSentDestination": "email_link_sent",
+    "successDestination": "home"
+  },
+  "emailLinkSent": {
+    "id": "email_link_sent",
+    "enabled": true,
+    "title": "Check Your Email",
+    "subtitle": "Open the secure sign-in link sent to your email address to continue.",
+    "showResendButton": true,
+    "allowChangeEmail": true,
+    "resendCooldownSeconds": 60,
+    "loginDestination": "login",
+    "successDestination": "home"
+  },
+  "authentication": {
+    "provider": "firebase",
+    "authMethod": "email_link",
+    "emailLinkEnabled": true,
+    "passwordlessSignIn": true,
+    "emailPasswordEnabled": true,
+    "anonymousEnabled": true,
+    "guestAccountLinkingEnabled": true,
+    "persistSession": true
   }
 }
