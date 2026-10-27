@@ -175,12 +175,12 @@
   "screens": [
     {"id": "home", "title": "Home", "type": "home", "enabled": true, "showInDrawer": true, "showInBottomNavigation": true, "requiresLogin": false},
     {"id": "services", "title": "Services", "type": "service_list", "enabled": true, "showInDrawer": true, "showInBottomNavigation": true, "requiresLogin": false},
-    {"id": "price_list", "title": "Price List", "type": "price_list", "enabled": true, "showInDrawer": true, "showInBottomNavigation": true, "requiresLogin": false},
+    {"id": "price_list", "title": "Price List", "type": "price_list", "enabled": true, "showInDrawer": true, "showInBottomNavigation": false, "requiresLogin": false},
     {"id": "gallery", "title": "Gallery", "type": "gallery", "enabled": true, "showInDrawer": true, "showInBottomNavigation": false, "requiresLogin": false},
-    {"id": "offers", "title": "Offers", "type": "offers", "enabled": true, "showInDrawer": true, "showInBottomNavigation": false, "requiresLogin": false, "icon": "local_offer", "subtitle": "Discover current salon offers", "emptyState": {"icon": "local_offer", "title": "No Offers Available", "message": "There are no active offers right now. Please check back later.", "showActionButton": false}},
-    {"id": "reviews", "title": "Reviews", "type": "reviews", "enabled": true, "showInDrawer": true, "showInBottomNavigation": false, "requiresLogin": false, "icon": "star", "subtitle": "Customer feedback and salon experiences", "emptyState": {"icon": "rate_review", "title": "No Reviews Yet", "message": "Customer reviews will appear here when they are available.", "showActionButton": false}},
+    {"id": "offers", "title": "Offers", "type": "offers", "enabled": true, "showInDrawer": true, "showInBottomNavigation": false, "requiresLogin": false, "icon": "local_offer", "subtitle": "Discover current salon offers"},
+    {"id": "reviews", "title": "Reviews", "type": "reviews", "enabled": true, "showInDrawer": true, "showInBottomNavigation": false, "requiresLogin": false, "icon": "star", "subtitle": "Customer feedback and salon experiences"},
     {"id": "location", "title": "Location", "type": "location", "enabled": true, "showInDrawer": true, "showInBottomNavigation": false, "requiresLogin": false},
-    {"id": "contact", "title": "Contact Us", "type": "contact", "enabled": true, "showInDrawer": true, "showInBottomNavigation": true, "requiresLogin": false},
+    {"id": "contact", "title": "Contact Us", "type": "contact", "enabled": true, "showInDrawer": true, "showInBottomNavigation": false, "requiresLogin": false},
     {"id": "franchise", "title": "Franchise", "type": "franchise", "enabled": true, "showInDrawer": true, "showInBottomNavigation": false, "requiresLogin": false},
     {"id": "settings", "title": "Settings", "type": "settings", "enabled": true, "showInDrawer": true, "showInBottomNavigation": false, "requiresLogin": false},
     {"id": "about", "title": "About Us", "type": "web_page", "enabled": true, "showInDrawer": true, "showInBottomNavigation": false, "urlKey": "aboutUs", "requiresLogin": false},
@@ -188,7 +188,9 @@
     {"id": "terms", "title": "Terms & Conditions", "type": "web_page", "enabled": true, "showInDrawer": true, "showInBottomNavigation": false, "urlKey": "termsUrl", "requiresLogin": false},
     {"id": "login", "title": "Sign In", "type": "login", "enabled": true, "showInDrawer": true, "showInBottomNavigation": false, "requiresLogin": false},
     {"id": "register", "title": "Create Account", "type": "register", "enabled": true, "showInDrawer": false, "showInBottomNavigation": false, "requiresLogin": false},
-    {"id": "email_link_sent", "title": "Check Your Email", "type": "email_link_sent", "enabled": true, "showInDrawer": false, "showInBottomNavigation": false, "requiresLogin": false}
+    {"id": "email_link_sent", "title": "Check Your Email", "type": "email_link_sent", "enabled": true, "showInDrawer": false, "showInBottomNavigation": false, "requiresLogin": false},
+    {"id": "booking", "title": "Booking", "type": "booking", "enabled": true, "showInDrawer": false, "showInBottomNavigation": false, "requiresLogin": false},
+    {"id": "profile", "title": "Profile", "type": "profile", "enabled": true, "showInDrawer": false, "showInBottomNavigation": false, "requiresLogin": false}
   ],
   "navigation": {
     "drawerEnabled": true,
@@ -219,11 +221,56 @@
     "bottomNavigationEnabled": true,
     "bottomNavigationMaxItems": 5,
     "bottomItems": [
-      {"id": "bottom_home", "title": "Home", "icon": "home", "selectedIcon": "home_filled", "type": "navigate", "destination": "home", "enabled": true, "order": 1},
-      {"id": "bottom_services", "title": "Services", "icon": "content_cut", "selectedIcon": "content_cut", "type": "navigate", "destination": "services", "enabled": true, "order": 2},
-      {"id": "bottom_prices", "title": "Prices", "icon": "currency_rupee", "selectedIcon": "currency_rupee", "type": "navigate", "destination": "price_list", "enabled": true, "order": 3},
-      {"id": "bottom_gallery", "title": "Gallery", "icon": "photo_library", "selectedIcon": "photo_library", "type": "navigate", "destination": "gallery", "enabled": true, "order": 4},
-      {"id": "bottom_contact", "title": "Contact", "icon": "call", "selectedIcon": "call", "type": "navigate", "destination": "contact", "enabled": true, "order": 5}
+      {
+        "id": "bottom_home",
+        "title": "Home",
+        "icon": "home",
+        "selectedIcon": "home_filled",
+        "type": "navigate",
+        "destination": "home",
+        "enabled": true,
+        "order": 1
+      },
+      {
+        "id": "bottom_services",
+        "title": "Service",
+        "icon": "content_cut",
+        "selectedIcon": "content_cut",
+        "type": "navigate",
+        "destination": "services",
+        "enabled": true,
+        "order": 2
+      },
+      {
+        "id": "bottom_offers",
+        "title": "Offers",
+        "icon": "local_offer",
+        "selectedIcon": "local_offer",
+        "type": "navigate",
+        "destination": "offers",
+        "enabled": true,
+        "order": 3
+      },
+      {
+        "id": "bottom_booking",
+        "title": "Booking",
+        "icon": "calendar_month",
+        "selectedIcon": "calendar_month",
+        "type": "navigate",
+        "destination": "booking",
+        "enabled": true,
+        "order": 4
+      },
+      {
+        "id": "bottom_profile",
+        "title": "Profile",
+        "icon": "account_circle",
+        "selectedIcon": "account_circle",
+        "type": "navigate",
+        "destination": "profile",
+        "enabled": true,
+        "order": 5
+      }
     ],
     "invalidDestinationBehavior": "hide_item",
     "preserveBackStackPerTab": true
@@ -240,8 +287,8 @@
       {"id": "home_popular_services", "type": "service_list_horizontal", "title": "Popular Services", "enabled": true, "order": 3, "dataSource": "popularServices", "maxItems": 8, "showViewAll": true, "viewAllDestination": "services"},
       {"id": "home_why_choose_us", "type": "feature_grid", "title": "Why Choose Us", "enabled": true, "order": 4, "dataSource": "whyChooseUs"},
       {"id": "home_gallery", "type": "gallery_preview", "title": "Our Gallery", "enabled": true, "order": 5, "dataSource": "galleryItems", "maxItems": 3, "showViewAll": true, "viewAllDestination": "gallery"},
-      {"id": "home_offers", "type": "offer_list", "title": "Special Offers", "enabled": true, "order": 6, "dataSource": "offers", "hideWhenEmpty": true, "showViewAll": true, "viewAllDestination": "offers", "icon": "local_offer"},
-      {"id": "home_reviews", "type": "review_list", "title": "Customer Reviews", "enabled": true, "order": 7, "dataSource": "reviews", "hideWhenEmpty": true, "showViewAll": true, "viewAllDestination": "reviews", "icon": "star"},
+      {"id": "home_offers", "type": "offer_list", "title": "Special Offers", "enabled": true, "order": 6, "dataSource": "offers", "hideWhenEmpty": true, "showViewAll": true, "viewAllDestination": "offers"},
+      {"id": "home_reviews", "type": "review_list", "title": "Customer Reviews", "enabled": true, "order": 7, "dataSource": "reviews", "hideWhenEmpty": true, "showViewAll": true, "viewAllDestination": "reviews"},
       {"id": "home_location", "type": "salon_location_card", "title": "Visit Our Salon", "enabled": true, "order": 8, "dataSource": "salon", "showAddress": true, "showOpeningHours": true, "action": {"type": "navigate", "destination": "location"}},
       {"id": "home_franchise", "type": "franchise_banner", "title": "Franchise Opportunities", "enabled": true, "order": 9, "dataSource": "franchise", "hideWhenDisabled": true, "action": {"type": "navigate", "destination": "franchise"}}
     ]
@@ -304,7 +351,7 @@
     "social": {"instagram": "", "facebook": ""}
   },
   "banners": [
-    {"id": 1, "imageUrl": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=800&q=80", "title": "Royal Grooming\nExperience", "subtitle": "Haircuts • Beard • Styling", "category": "SERVICES", "serviceType": "SALON", "isAvailable": true},
+    {"id": 1, "imageUrl": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=800&q=80", "title": "Royal Grooming\nExperience", "subtitle": "Haircuts • Beard • Styling", "category": "SERVICE", "serviceType": "SALON", "isAvailable": true},
     {"id": 2, "imageUrl": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=800&q=80", "title": "Precision Haircuts", "subtitle": "Your style, perfected", "category": "HAIR", "serviceType": "SALON", "isAvailable": true},
     {"id": 3, "imageUrl": "https://images.unsplash.com/photo-1599011176306-4a96f1516d4d?auto=format&fit=crop&w=800&q=80", "title": "Signature Beard Styling", "subtitle": "Sharp lines. Confident looks.", "category": "BEARD", "serviceType": "SALON", "isAvailable": true},
     {"id": 4, "imageUrl": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=800&q=80", "title": "Look Your Best", "subtitle": "Professional styling for every occasion", "category": "STYLING", "serviceType": "SALON", "isAvailable": true}
@@ -355,12 +402,12 @@
   "reviews": [],
   "barbers": [{"id": 1, "name": "Any Available", "expertise": "Choose your preferred available barber", "imageUrl": ""}],
   "galleryItems": [
-    {"id": 1, "title": "Classic Finishing", "description": "Salon grooming and styling", "imageUrl": "https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D", "category": "SALON", "isAvailable": true},
-    {"id": 2, "title": "Premium Grooming", "description": "Detailed beard and hair finishing", "imageUrl": "https://plus.unsplash.com/premium_photo-1664048712492-9d395c204e37?q=80&w=415&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D", "category": "SALON", "isAvailable": true},
-    {"id": 3, "title": "Sharp Beard Styling", "description": "Professional beard shaping", "imageUrl": "https://plus.unsplash.com/premium_photo-1661349656933-532b88c88682?q=80&w=887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D", "category": "SALON", "isAvailable": true},
-    {"id": 4, "title": "Signature Haircut", "description": "Precision haircut service", "imageUrl": "https://plus.unsplash.com/premium_photo-1669675933969-f0e6454b439a?q=80&w=388&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D", "category": "SALON", "isAvailable": true},
-    {"id": 5, "title": "Style & Finish", "description": "Luxury grooming session", "imageUrl": "https://plus.unsplash.com/premium_photo-1779194564260-7f17f472c5b4?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D", "category": "SALON", "isAvailable": true},
-    {"id": 6, "title": "Modern Grooming", "description": "Contemporary barber styling", "imageUrl": "https://plus.unsplash.com/premium_photo-1779194563590-0a8211891ae3?q=80&w=485&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D", "category": "SALON", "isAvailable": true},
-    {"id": 7, "title": "Royal Look", "description": "Confident finish for every occasion", "imageUrl": "https://plus.unsplash.com/premium_photo-1661645818605-61e1ef1f14e0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D", "category": "SALON", "isAvailable": true}
+    {"id": 1, "title": "Classic Finishing", "description": "Salon grooming and styling", "imageUrl": "https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzg0NDY3Mzg", "category": "SALON", "isAvailable": true},
+    {"id": 2, "title": "Premium Grooming", "description": "Detailed beard and hair finishing", "imageUrl": "https://plus.unsplash.com/premium_photo-1664048712492-9d395c204e37?q=80&w=415&auto=format&fit=crop", "category": "SALON", "isAvailable": true},
+    {"id": 3, "title": "Sharp Beard Styling", "description": "Professional beard shaping", "imageUrl": "https://plus.unsplash.com/premium_photo-1661349656933-532b88c88682?q=80&w=887&auto=format&fit=crop", "category": "SALON", "isAvailable": true},
+    {"id": 4, "title": "Signature Haircut", "description": "Precision haircut service", "imageUrl": "https://plus.unsplash.com/premium_photo-1669675933969-f0e6454b439a?q=80&w=388&auto=format&fit=crop", "category": "SALON", "isAvailable": true},
+    {"id": 5, "title": "Style & Finish", "description": "Luxury grooming session", "imageUrl": "https://plus.unsplash.com/premium_photo-1779194564260-7f17f472c5b4?q=80&w=870&auto=format&fit=crop", "category": "SALON", "isAvailable": true},
+    {"id": 6, "title": "Modern Grooming", "description": "Contemporary barber styling", "imageUrl": "https://plus.unsplash.com/premium_photo-1779194563590-0a8211891ae3?q=80&w=485&auto=format&fit=crop", "category": "SALON", "isAvailable": true},
+    {"id": 7, "title": "Royal Look", "description": "Confident finish for every occasion", "imageUrl": "https://plus.unsplash.com/premium_photo-1661645818605-61e1ef1f14e0?w=500&auto=format&fit=crop&q=60", "category": "SALON", "isAvailable": true}
   ]
 }
