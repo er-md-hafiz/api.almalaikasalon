@@ -177,8 +177,8 @@
     {"id": "services", "title": "Services", "type": "service_list", "enabled": true, "showInDrawer": true, "showInBottomNavigation": true, "requiresLogin": false},
     {"id": "price_list", "title": "Price List", "type": "price_list", "enabled": true, "showInDrawer": true, "showInBottomNavigation": false, "requiresLogin": false},
     {"id": "gallery", "title": "Gallery", "type": "gallery", "enabled": true, "showInDrawer": true, "showInBottomNavigation": false, "requiresLogin": false},
-    {"id": "offers", "title": "Offers", "type": "offers", "enabled": true, "showInDrawer": true, "showInBottomNavigation": false, "requiresLogin": false, "icon": "local_offer", "subtitle": "Discover special salon deals"},
-    {"id": "reviews", "title": "Reviews", "type": "reviews", "enabled": true, "showInDrawer": true, "showInBottomNavigation": false, "requiresLogin": false, "icon": "star", "subtitle": "Customer feedback and ratings"},
+    {"id": "offers", "title": "Offers", "type": "offers", "enabled": true, "showInDrawer": true, "showInBottomNavigation": false, "requiresLogin": false, "icon": "local_offer", "subtitle": "Discover special deals and savings."},
+    {"id": "reviews", "title": "Reviews", "type": "reviews", "enabled": true, "showInDrawer": true, "showInBottomNavigation": false, "requiresLogin": false, "icon": "star", "subtitle": "Customer feedback and ratings."},
     {"id": "location", "title": "Location", "type": "location", "enabled": true, "showInDrawer": true, "showInBottomNavigation": false, "requiresLogin": false},
     {"id": "contact", "title": "Contact Us", "type": "contact", "enabled": true, "showInDrawer": true, "showInBottomNavigation": false, "requiresLogin": false},
     {"id": "franchise", "title": "Franchise", "type": "franchise", "enabled": true, "showInDrawer": true, "showInBottomNavigation": false, "requiresLogin": false},
@@ -347,22 +347,22 @@
     "workingDays": "Monday – Sunday",
     "mapsEmbedUrl": "https://maps.google.com/maps?q=23.9988,85.3612&z=16&output=embed",
     "mapsSearchUrl": "https://www.google.com/maps/search/Al-Malaika+Salon+Hazaribagh+Jharkhand",
-    "playStoreUrl": "",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.almalika.salon",
     "social": {"instagram": "", "facebook": ""}
   },
   "banners": [
-    {"id": 1, "imageUrl": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=800&q=80", "title": "Royal Grooming\nExperience", "subtitle": "Haircuts • Beard • Styling", "category": "Popular"},
-    {"id": 2, "imageUrl": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=800&q=80", "title": "Precision Haircuts", "subtitle": "Your style, perfected", "category": "Trending"},
-    {"id": 3, "imageUrl": "https://images.unsplash.com/photo-1599011176306-4a96f1516d4d?auto=format&fit=crop&w=800&q=80", "title": "Signature Beard Styling", "subtitle": "Sharp lines. Confident looks.", "category": "Premium"},
-    {"id": 4, "imageUrl": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=800&q=80", "title": "Look Your Best", "subtitle": "Professional styling for every occasion", "category": "Featured"}
+    {"id": 1, "imageUrl": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=800&q=80", "title": "Royal Grooming\nExperience", "subtitle": "Haircuts • Beard • Styling • Grooming", "category": "Featured"},
+    {"id": 2, "imageUrl": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=800&q=80", "title": "Precision Haircuts", "subtitle": "Your style, perfected", "category": "Popular"},
+    {"id": 3, "imageUrl": "https://images.unsplash.com/photo-1599011176306-4a96f1516d4d?auto=format&fit=crop&w=800&q=80", "title": "Signature Beard Styling", "subtitle": "Sharp lines. Confident looks.", "category": "Trending"},
+    {"id": 4, "imageUrl": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=800&q=80", "title": "Look Your Best", "subtitle": "Professional styling for every occasion", "category": "Salon"}
   ],
   "quickServices": [
-    {"id": 1, "name": "Classic Haircut", "description": "A clean, precise haircut tailored to your preferred style.", "price": 150, "imageUrl": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=400&q=80"},
-    {"id": 2, "name": "Beard Trim", "description": "Professional beard trimming and shaping.", "price": 80, "imageUrl": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=400&q=80"},
-    {"id": 3, "name": "Premium Haircut", "description": "Detailed haircut with a premium finishing touch.", "price": 250, "imageUrl": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=400&q=80"},
-    {"id": 4, "name": "Clean Shave", "description": "A neat shave for a clean, refreshed look.", "price": 100, "imageUrl": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=400&q=80"},
-    {"id": 5, "name": "Hair Styling", "description": "Style your hair for everyday wear or special occasions.", "price": 120, "imageUrl": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=400&q=80"},
-    {"id": 6, "name": "Kids Haircut", "description": "Comfortable, age-appropriate haircuts for children.", "price": 120, "imageUrl": "https://plus.unsplash.com/premium_photo-1677098576397-d3403bf838a?auto=format&fit=crop&w=400&q=80"}
+    {"id": 1, "name": "Classic Haircut", "description": "A clean, precise haircut tailored to your preferred style.", "price": 150, "imageUrl": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=500&q=80"},
+    {"id": 2, "name": "Beard Trim", "description": "Professional beard trimming and shaping.", "price": 80, "imageUrl": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=500&q=80"},
+    {"id": 3, "name": "Premium Haircut", "description": "Detailed haircut with a premium finishing touch.", "price": 250, "imageUrl": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=500&q=80"},
+    {"id": 4, "name": "Clean Shave", "description": "A neat shave for a clean, refreshed look.", "price": 100, "imageUrl": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=500&q=80"},
+    {"id": 5, "name": "Hair Styling", "description": "Style your hair for everyday wear or special occasions.", "price": 120, "imageUrl": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=500&q=80"},
+    {"id": 6, "name": "Kids Haircut", "description": "Comfortable, age-appropriate haircuts for children.", "price": 120, "imageUrl": "https://plus.unsplash.com/premium_photo-1677098576397-d3403bf838a?auto=format&fit=crop&w=500&q=80"}
   ],
   "popularServices": [
     {"id": 101, "name": "Signature Haircut", "description": "A detailed haircut with personalised styling.", "price": 250, "imageUrl": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=400&q=80"},
@@ -436,7 +436,7 @@
   "reviews": [],
   "barbers": [{"id": 1, "name": "Any Available", "expertise": "Choose your preferred available barber", "imageUrl": ""}],
   "galleryItems": [
-    {"id": 1, "title": "Classic Finishing", "description": "Salon grooming and styling", "imageUrl": "https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFyYmVyc2hvcHxlbnwwfHwwfHx8MA%3D%3D"},
+    {"id": 1, "title": "Classic Finishing", "description": "Salon grooming and styling", "imageUrl": "https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MXxzZWFyY2h8Nnx8YmFyYmVyfHwwfHx8fDE%3D"},
     {"id": 2, "title": "Premium Grooming", "description": "Detailed beard and hair finishing", "imageUrl": "https://plus.unsplash.com/premium_photo-1664048712492-9d395c204e37?q=80&w=415&auto=format&fit=crop"},
     {"id": 3, "title": "Sharp Beard Styling", "description": "Professional beard shaping", "imageUrl": "https://plus.unsplash.com/premium_photo-1661349656933-532b88c88682?q=80&w=887&auto=format&fit=crop"},
     {"id": 4, "title": "Signature Haircut", "description": "Precision haircut service", "imageUrl": "https://plus.unsplash.com/premium_photo-1669675933969-f0e6454b439a?q=80&w=388&auto=format&fit=crop"},
