@@ -354,25 +354,25 @@
     {"id": 1, "imageUrl": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=800&q=80", "title": "Royal Grooming\nExperience", "subtitle": "Haircuts • Beard • Styling • Grooming", "category": "Featured"},
     {"id": 2, "imageUrl": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=800&q=80", "title": "Precision Haircuts", "subtitle": "Your style, perfected", "category": "Popular"},
     {"id": 3, "imageUrl": "https://images.unsplash.com/photo-1599011176306-4a96f1516d4d?auto=format&fit=crop&w=800&q=80", "title": "Signature Beard Styling", "subtitle": "Sharp lines. Confident looks.", "category": "Trending"},
-    {"id": 4, "imageUrl": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=800&q=80", "title": "Look Your Best", "subtitle": "Professional styling for every occasion", "category": "Salon"}
+    {"id": 4, "imageUrl": "https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&fit=crop&w=800&q=80", "title": "Look Your Best", "subtitle": "Professional styling for every occasion", "category": "Salon"}
   ],
   "quickServices": [
     {"id": 1, "name": "Classic Haircut", "description": "A clean, precise haircut tailored to your preferred style.", "price": 150, "imageUrl": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=500&q=80"},
     {"id": 2, "name": "Beard Trim", "description": "Professional beard trimming and shaping.", "price": 80, "imageUrl": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=500&q=80"},
     {"id": 3, "name": "Premium Haircut", "description": "Detailed haircut with a premium finishing touch.", "price": 250, "imageUrl": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=500&q=80"},
-    {"id": 4, "name": "Clean Shave", "description": "A neat shave for a clean, refreshed look.", "price": 100, "imageUrl": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=500&q=80"},
-    {"id": 5, "name": "Hair Styling", "description": "Style your hair for everyday wear or special occasions.", "price": 120, "imageUrl": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=500&q=80"},
-    {"id": 6, "name": "Kids Haircut", "description": "Comfortable, age-appropriate haircuts for children.", "price": 120, "imageUrl": "https://plus.unsplash.com/premium_photo-1677098576397-d3403bf838a?auto=format&fit=crop&w=500&q=80"}
+    {"id": 4, "name": "Clean Shave", "description": "A neat shave for a clean, refreshed look.", "price": 100, "imageUrl": "https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&fit=crop&w=500&q=80"},
+    {"id": 5, "name": "Hair Styling", "description": "Style your hair for everyday wear or special occasions.", "price": 120, "imageUrl": "https://images.unsplash.com/photo-1521593450399-9c6f5ebd0c76?auto=format&fit=crop&w=500&q=80"},
+    {"id": 6, "name": "Kids Haircut", "description": "Comfortable, age-appropriate haircuts for children.", "price": 120, "imageUrl": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=500&q=80"}
   ],
   "popularServices": [
     {"id": 101, "name": "Signature Haircut", "description": "A detailed haircut with personalised styling.", "price": 250, "imageUrl": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=400&q=80"},
     {"id": 102, "name": "Beard Styling", "description": "Precision beard shaping and finishing.", "price": 150, "imageUrl": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=400&q=80"},
     {"id": 103, "name": "Haircut and Beard Combo", "description": "A coordinated haircut and beard grooming experience.", "price": 300, "imageUrl": "https://images.unsplash.com/photo-1599011176306-4a96f1516d4d?auto=format&fit=crop&w=400&q=80"},
-    {"id": 104, "name": "Clean Shave", "description": "Traditional clean shaving service.", "price": 100, "imageUrl": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=400&q=80"},
+    {"id": 104, "name": "Clean Shave", "description": "Traditional clean shaving service.", "price": 100, "imageUrl": "https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&fit=crop&w=400&q=80"},
     {"id": 105, "name": "Hair Colour", "description": "Hair colouring service tailored to your selected look.", "price": 699, "imageUrl": "https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=400&q=80"},
     {"id": 106, "name": "Head Massage", "description": "A relaxing scalp massage.", "price": 199, "imageUrl": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=400&q=80"},
-    {"id": 107, "name": "Kids Haircut", "description": "A neat haircut for kids in a comfortable setting.", "price": 120, "imageUrl": "https://plus.unsplash.com/premium_photo-1677098576397-d3403bf838a?auto=format&fit=crop&w=400&q=80"},
-    {"id": 108, "name": "Complete Grooming Package", "description": "A convenient combination of haircut, beard trim and styling.", "price": 399, "imageUrl": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=400&q=80"}
+    {"id": 107, "name": "Kids Haircut", "description": "A neat haircut for kids in a comfortable setting.", "price": 120, "imageUrl": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=400&q=80"},
+    {"id": 108, "name": "Complete Grooming Package", "description": "A convenient combination of haircut, beard trim and styling.", "price": 399, "imageUrl": "https://images.unsplash.com/photo-1521593450399-9c6f5ebd0c76?auto=format&fit=crop&w=400&q=80"}
   ],
   "homeServices": [],
   "homeServiceBooking": {
@@ -434,14 +434,30 @@
     }
   ],
   "reviews": [],
-  "barbers": [{"id": 1, "name": "Any Available", "expertise": "Choose your preferred available barber", "imageUrl": ""}],
+  "barbers": [{"id": 1, "name": "Any Available", "expertise": "Choose your preferred available barber", "imageUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80"}],
   "galleryItems": [
-    {"id": 1, "title": "Classic Finishing", "description": "Salon grooming and styling", "imageUrl": "https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MXxzZWFyY2h8Nnx8YmFyYmVyfHwwfHx8fDE%3D"},
-    {"id": 2, "title": "Premium Grooming", "description": "Detailed beard and hair finishing", "imageUrl": "https://plus.unsplash.com/premium_photo-1664048712492-9d395c204e37?q=80&w=415&auto=format&fit=crop"},
-    {"id": 3, "title": "Sharp Beard Styling", "description": "Professional beard shaping", "imageUrl": "https://plus.unsplash.com/premium_photo-1661349656933-532b88c88682?q=80&w=887&auto=format&fit=crop"},
-    {"id": 4, "title": "Signature Haircut", "description": "Precision haircut service", "imageUrl": "https://plus.unsplash.com/premium_photo-1669675933969-f0e6454b439a?q=80&w=388&auto=format&fit=crop"},
-    {"id": 5, "title": "Style & Finish", "description": "Luxury grooming session", "imageUrl": "https://plus.unsplash.com/premium_photo-1779194564260-7f17f472c5b4?q=80&w=870&auto=format&fit=crop"},
-    {"id": 6, "title": "Modern Grooming", "description": "Contemporary barber styling", "imageUrl": "https://plus.unsplash.com/premium_photo-1779194563590-0a8211891ae3?q=80&w=485&auto=format&fit=crop"},
-    {"id": 7, "title": "Royal Look", "description": "Confident finish for every occasion", "imageUrl": "https://plus.unsplash.com/premium_photo-1661645818605-61e1ef1f14e0?w=500&auto=format&fit=crop&q=80"}
+    {"id": 1, "title": "Classic Finishing", "description": "Salon grooming and styling", "imageUrl": "https://images.unsplash.com/photo-1703792686756-c82bf734c89b?auto=format&fit=crop&w=800&q=80", "category": "SALON", "isAvailable": true},
+    {"id": 2, "title": "Premium Grooming", "description": "Detailed beard and hair finishing", "imageUrl": "https://images.unsplash.com/photo-1673241072591-1973333369a2?auto=format&fit=crop&w=800&q=80", "category": "SALON", "isAvailable": true},
+    {"id": 3, "title": "Sharp Beard Styling", "description": "Professional beard shaping", "imageUrl": "https://images.unsplash.com/photo-1599011176306-4a96f1516d4d?auto=format&fit=crop&w=800&q=80", "category": "BEARD", "isAvailable": true},
+    {"id": 4, "title": "Signature Haircut", "description": "Precision haircut service", "imageUrl": "https://images.unsplash.com/photo-1703792686383-4f307cbfa544?auto=format&fit=crop&w=800&q=80", "category": "HAIRCUT", "isAvailable": true},
+    {"id": 5, "title": "Style & Finish", "description": "Luxury grooming session", "imageUrl": "https://images.unsplash.com/photo-1605497788044-5a32c7078486?auto=format&fit=crop&w=800&q=80", "category": "STYLING", "isAvailable": true},
+    {"id": 6, "title": "Modern Grooming", "description": "Contemporary barber styling", "imageUrl": "https://images.unsplash.com/photo-1614438865362-9137f7e3036e?auto=format&fit=crop&w=800&q=80", "category": "STYLING", "isAvailable": true},
+    {"id": 7, "title": "Royal Look", "description": "Confident finish for every occasion", "imageUrl": "https://images.unsplash.com/photo-1637613345152-126dff18b8fa?auto=format&fit=crop&w=800&q=80", "category": "HAIRCUT", "isAvailable": true},
+    {"id": 8, "title": "Classic Fade", "description": "Clean cut with detailed finishing", "imageUrl": "https://images.unsplash.com/photo-1521593450399-9c6f5ebd0c76?auto=format&fit=crop&w=800&q=80", "category": "HAIRCUT", "isAvailable": true},
+    {"id": 9, "title": "Beard Sculpting", "description": "Neatly shaped beard for a polished look", "imageUrl": "https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&fit=crop&w=800&q=80", "category": "BEARD", "isAvailable": true},
+    {"id": 10, "title": "Fresh Shave", "description": "Traditional clean shave and skin care", "imageUrl": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=800&q=80", "category": "BEARD", "isAvailable": true},
+    {"id": 11, "title": "Hair Colour Glow", "description": "Modern colour tones and finishing", "imageUrl": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=800&q=80", "category": "STYLING", "isAvailable": true},
+    {"id": 12, "title": "Scalp Care Ritual", "description": "Relaxing treatment for healthy hair", "imageUrl": "https://images.unsplash.com/photo-1521593450399-9c6f5ebd0c76?auto=format&fit=crop&w=800&q=80", "category": "MASSAGE", "isAvailable": true},
+    {"id": 13, "title": "Kid's Smooth Cut", "description": "Comfortable grooming for young clients", "imageUrl": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=800&q=80", "category": "KIDS", "isAvailable": true},
+    {"id": 14, "title": "Barber Chair Detail", "description": "Professional salon setup and tools", "imageUrl": "https://images.unsplash.com/photo-1556228578-8c89e6adf883?auto=format&fit=crop&w=800&q=80", "category": "SALON", "isAvailable": true},
+    {"id": 15, "title": "Grooming Mirror", "description": "A fresh look in a premium salon space", "imageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80", "category": "SALON", "isAvailable": true},
+    {"id": 16, "title": "Precision Styling", "description": "Sharp finish and refined detailing", "imageUrl": "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=800&q=80", "category": "STYLING", "isAvailable": true},
+    {"id": 17, "title": "Men's Grooming Session", "description": "Personalized style consultation and cut", "imageUrl": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80", "category": "HAIRCUT", "isAvailable": true},
+    {"id": 18, "title": "Luxury Beard Finish", "description": "Detailed beard shaping and styling", "imageUrl": "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=800&q=80", "category": "BEARD", "isAvailable": true},
+    {"id": 19, "title": "Salon Interior", "description": "Modern salon environment for premium care", "imageUrl": "https://images.unsplash.com/photo-1521593450399-9c6f5ebd0c76?auto=format&fit=crop&w=800&q=80", "category": "SALON", "isAvailable": true},
+    {"id": 20, "title": "Head Massage Therapy", "description": "Relaxation and scalp rejuvenation", "imageUrl": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=80", "category": "MASSAGE", "isAvailable": true},
+    {"id": 21, "title": "Barber Shop Mood", "description": "Authentic barber experience and style", "imageUrl": "https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&fit=crop&w=800&q=80", "category": "SALON", "isAvailable": true},
+    {"id": 22, "title": "Premium Beard Trim", "description": "Sharp outline and polished grooming finish", "imageUrl": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=800&q=80", "category": "BEARD", "isAvailable": true},
+    {"id": 23, "title": "Fresh Cut & Style", "description": "Tailored haircut for a confident finish", "imageUrl": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=800&q=80", "category": "HAIRCUT", "isAvailable": true}
   ]
 }
