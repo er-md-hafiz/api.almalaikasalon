@@ -290,11 +290,11 @@
     "about": "Premium men's haircuts, beard styling and grooming services in Hazaribagh.",
     "tagline": "Royal Grooming. Timeless Style.",
     "address": "Alfalah Colony, Pugmil, Hazaribagh, Jharkhand 825319",
-    "mobileNumber": "09708101242",
-    "mobileNumberDial": "+919708101242",
-    "email": "",
-    "whatsappUrl": "",
-    "rating": 0,
+    "mobileNumber": "07903259432",
+    "mobileNumberDial": "+917903259432",
+    "email": "m3hmedia@gmail.com",
+    "whatsappUrl": "https://wa.me/917903259432"",
+    "rating": 5,
     "totalReviews": 15,
     "latitude": 23.9988,
     "longitude": 85.3612,
@@ -471,7 +471,188 @@
       "enabled": true
     }
   ],
-  "reviews": [],
+  "reviews": [
+  {
+    "id": 1,
+    "customerName": "Aarav Sharma",
+    "rating": 5,
+    "reviewText": "DEMO ONLY — Sample feedback about a haircut experience.",
+    "date": "2026-10-02",
+    "source": "demo",
+    "isVerified": false
+  },
+  {
+    "id": 2,
+    "customerName": "Rahul Kumar",
+    "rating": 4,
+    "reviewText": "DEMO ONLY — Sample feedback about friendly service.",
+    "date": "2026-10-03",
+    "source": "demo",
+    "isVerified": false
+  },
+  {
+    "id": 3,
+    "customerName": "Aman Singh",
+    "rating": 5,
+    "reviewText": "DEMO ONLY — Sample feedback about professional grooming.",
+    "date": "2026-10-04",
+    "source": "demo",
+    "isVerified": false
+  },
+  {
+    "id": 4,
+    "customerName": "Rohit Verma",
+    "rating": 4,
+    "reviewText": "DEMO ONLY — Sample feedback about a neat haircut.",
+    "date": "2026-10-05",
+    "source": "demo",
+    "isVerified": false
+  },
+  {
+    "id": 5,
+    "customerName": "Mohammad Arman",
+    "rating": 5,
+    "reviewText": "DEMO ONLY — Sample feedback about beard styling.",
+    "date": "2026-10-06",
+    "source": "demo",
+    "isVerified": false
+  },
+  {
+    "id": 6,
+    "customerName": "Vikash Kumar",
+    "rating": 4,
+    "reviewText": "DEMO ONLY — Sample feedback about the salon experience.",
+    "date": "2026-10-07",
+    "source": "demo",
+    "isVerified": false
+  },
+  {
+    "id": 7,
+    "customerName": "Aditya Gupta",
+    "rating": 5,
+    "reviewText": "DEMO ONLY — Sample feedback about haircut finishing.",
+    "date": "2026-10-08",
+    "source": "demo",
+    "isVerified": false
+  },
+  {
+    "id": 8,
+    "customerName": "Imran Ansari",
+    "rating": 4,
+    "reviewText": "DEMO ONLY — Sample feedback about a comfortable visit.",
+    "date": "2026-10-09",
+    "source": "demo",
+    "isVerified": false
+  },
+  {
+    "id": 9,
+    "customerName": "Sahil Yadav",
+    "rating": 5,
+    "reviewText": "DEMO ONLY — Sample feedback about hair styling.",
+    "date": "2026-10-10",
+    "source": "demo",
+    "isVerified": false
+  },
+  {
+    "id": 10,
+    "customerName": "Deepak Raj",
+    "rating": 4,
+    "reviewText": "DEMO ONLY — Sample feedback about the grooming service.",
+    "date": "2026-10-11",
+    "source": "demo",
+    "isVerified": false
+  },
+  {
+    "id": 11,
+    "customerName": "Sameer Khan",
+    "rating": 5,
+    "reviewText": "DEMO ONLY — Sample feedback about beard trimming.",
+    "date": "2026-10-12",
+    "source": "demo",
+    "isVerified": false
+  },
+  {
+    "id": 12,
+    "customerName": "Nitin Kumar",
+    "rating": 4,
+    "reviewText": "DEMO ONLY — Sample feedback about salon cleanliness.",
+    "date": "2026-10-13",
+    "source": "demo",
+    "isVerified": false
+  },
+  {
+    "id": 13,
+    "customerName": "Faizan Ahmad",
+    "rating": 5,
+    "reviewText": "DEMO ONLY — Sample feedback about a stylish haircut.",
+    "date": "2026-10-14",
+    "source": "demo",
+    "isVerified": false
+  },
+  {
+    "id": 14,
+    "customerName": "Ankit Raj",
+    "rating": 4,
+    "reviewText": "DEMO ONLY — Sample feedback about the service quality.",
+    "date": "2026-10-15",
+    "source": "demo",
+    "isVerified": false
+  },
+  {
+    "id": 15,
+    "customerName": "Shubham Singh",
+    "rating": 5,
+    "reviewText": "DEMO ONLY — Sample feedback about a premium grooming session.",
+    "date": "2026-10-16",
+    "source": "demo",
+    "isVerified": false
+  },
+  {
+    "id": 16,
+    "customerName": "Arif Hussain",
+    "rating": 4,
+    "reviewText": "DEMO ONLY — Sample feedback about a friendly barber.",
+    "date": "2026-10-17",
+    "source": "demo",
+    "isVerified": false
+  },
+  {
+    "id": 17,
+    "customerName": "Karan Patel",
+    "rating": 5,
+    "reviewText": "DEMO ONLY — Sample feedback about a fresh new look.",
+    "date": "2026-10-18",
+    "source": "demo",
+    "isVerified": false
+  },
+  {
+    "id": 18,
+    "customerName": "Salman Ali",
+    "rating": 4,
+    "reviewText": "DEMO ONLY — Sample feedback about beard shaping.",
+    "date": "2026-10-19",
+    "source": "demo",
+    "isVerified": false
+  },
+  {
+    "id": 19,
+    "customerName": "Pankaj Kumar",
+    "rating": 5,
+    "reviewText": "DEMO ONLY — Sample feedback about the overall salon visit.",
+    "date": "2026-10-20",
+    "source": "demo",
+    "isVerified": false
+  },
+  {
+    "id": 20,
+    "customerName": "Zaid Ahmed",
+    "rating": 4,
+    "reviewText": "DEMO ONLY — Sample feedback about professional styling.",
+    "date": "2026-10-21",
+    "source": "demo",
+    "isVerified": false
+  }
+],
   "barbers": [{"id": 1, "name": "Any Available", "expertise": "Choose your preferred available barber", "imageUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80"}],
   "galleryItems": [
     {"id": 1, "title": "Classic Finishing", "description": "Salon grooming and styling", "imageUrl": "https://images.unsplash.com/photo-1703792686756-c82bf734c89b?auto=format&fit=crop&w=800&q=80", "category": "SALON", "isAvailable": true},
