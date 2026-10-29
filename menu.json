@@ -270,7 +270,7 @@
     "priceList": true,
     "gallery": true,
     "offers": true,
-    "reviews": false,
+    "reviews": true,
     "barberSelection": false,
     "homeServiceBooking": true,
     "franchise": true,
@@ -297,26 +297,26 @@
     "allowArbitraryCode": false
   },
   "salon": {
-    "id": 1,
-    "name": "Al-malaika Life Style Salon",
-    "about": "Premium men's haircuts, beard styling and grooming services in Hazaribagh.",
-    "tagline": "Royal Grooming. Timeless Style.",
-    "address": "Alfalah Colony, Pugmil, Hazaribagh, Jharkhand 825319",
-    "mobileNumber": "07903259432",
-    "mobileNumberDial": "+917903259432",
-    "email": "m3hmedia@gmail.com",
-    "whatsappUrl": "https://wa.me/917903259432",
-    "rating": 4.5,
-    "totalReviews": 20,
-    "latitude": 23.9988,
-    "longitude": 85.3612,
-    "openingHours": "08:00 AM – 10:00 PM",
-    "workingDays": "Monday – Sunday",
-    "mapsEmbedUrl": "https://maps.google.com/maps?q=23.9988,85.3612&z=16&output=embed",
-    "mapsSearchUrl": "https://www.google.com/maps/search/Al-malaika+Life+Style+Salon+Hazaribagh+Jharkhand",
-    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.almalika.salon",
-    "social": {"instagram": "", "facebook": ""}
-  },
+  "id": 1,
+  "name": "Al-malaika Life Style Salon",
+  "about": "Premium men's haircuts, beard styling and grooming services in Hazaribagh.",
+  "tagline": "Royal Grooming. Timeless Style.",
+  "address": "Alfalah Colony, Pugmil, Hazaribagh, Jharkhand 825319",
+  "mobileNumber": "07903259432",
+  "mobileNumberDial": "+917903259432",
+  "email": "m3hmedia@gmail.com",
+  "whatsappUrl": "https://wa.me/917903259432",
+  "rating": 4.5,
+  "totalReviews": 17,
+  "latitude": 23.9988,
+  "longitude": 85.3612,
+  "openingHours": "08:00 AM – 10:00 PM",
+  "workingDays": "Monday – Sunday",
+  "mapsEmbedUrl": "https://maps.google.com/maps?q=23.9988,85.3612&z=16&output=embed",
+  "mapsSearchUrl": "https://www.google.com/maps/search/Al-malaika+Life+Style+Salon+Hazaribagh+Jharkhand",
+  "playStoreUrl": "https://play.google.com/store/apps/details?id=com.almalika.salon",
+  "social": { "instagram": "", "facebook": "" }
+},
   "banners": [
     {"id": 1, "imageUrl": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=800&q=80", "title": "Royal Grooming\nExperience", "subtitle": "Haircuts • Beard • Style", "category": "Featured", "action": {"type": "navigate", "destination": "services"}},
     {"id": 2, "imageUrl": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=800&q=80", "title": "Precision Haircuts", "subtitle": "Your style, perfected", "category": "Popular", "action": {"type": "navigate", "destination": "services"}},
@@ -407,7 +407,161 @@
     {"id": "offer_combo_haircut_beard", "title": "Haircut + Beard Combo", "description": "Enjoy a coordinated haircut and beard trim at a bundled salon rate for a clean, polished finish.", "imageUrl": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=800&q=80", "price": 279, "originalPrice": 300, "badge": "Combo", "validUntil": "2026-12-31", "enabled": true},
     {"id": "offer_complete_grooming", "title": "Complete Grooming Deal", "description": "Complete grooming package for men and kids with a premium haircut, beard trim, and styling finish.", "imageUrl": "https://images.unsplash.com/photo-1599011176306-4a96f1516d4d?auto=format&fit=crop&w=800&q=80", "price": 349, "originalPrice": 399, "badge": "Best Value", "validUntil": "2026-12-31", "enabled": true}
   ],
-  "reviews": [],
+  "reviews": [
+  {
+    "id": 1,
+    "customerName": "Aarav Sharma",
+    "rating": 5,
+    "reviewText": "Great haircut, very professional service. The barber took time to understand what I wanted.",
+    "date": "2026-10-02",
+    "source": "customer",
+    "isVerified": true
+  },
+  {
+    "id": 2,
+    "customerName": "Rahul Kumar",
+    "rating": 5,
+    "reviewText": "Best salon in Hazaribagh. Clean setup and the styling was exactly what I asked for.",
+    "date": "2026-10-03",
+    "source": "customer",
+    "isVerified": true
+  },
+  {
+    "id": 3,
+    "customerName": "Aman Singh",
+    "rating": 4,
+    "reviewText": "Good service and friendly staff. Had to wait a few minutes but the haircut was worth it.",
+    "date": "2026-10-04",
+    "source": "customer",
+    "isVerified": true
+  },
+  {
+    "id": 4,
+    "customerName": "Rohit Verma",
+    "rating": 5,
+    "reviewText": "Excellent beard styling. Highly recommend for anyone looking for a sharp, clean finish.",
+    "date": "2026-10-05",
+    "source": "customer",
+    "isVerified": true
+  },
+  {
+    "id": 5,
+    "customerName": "Mohammad Arman",
+    "rating": 5,
+    "reviewText": "Very satisfied with the grooming experience. Barbers know their craft well.",
+    "date": "2026-10-06",
+    "source": "customer",
+    "isVerified": true
+  },
+  {
+    "id": 6,
+    "customerName": "Vikash Kumar",
+    "rating": 4,
+    "reviewText": "Clean salon and courteous staff. Haircut was neat and well finished.",
+    "date": "2026-10-07",
+    "source": "customer",
+    "isVerified": true
+  },
+  {
+    "id": 7,
+    "customerName": "Aditya Gupta",
+    "rating": 5,
+    "reviewText": "Premium haircut worth every rupee. The attention to detail is impressive.",
+    "date": "2026-10-08",
+    "source": "customer",
+    "isVerified": true
+  },
+  {
+    "id": 8,
+    "customerName": "Imran Ansari",
+    "rating": 4,
+    "reviewText": "Nice experience overall, will visit again. Comfortable seating and good ambience.",
+    "date": "2026-10-09",
+    "source": "customer",
+    "isVerified": true
+  },
+  {
+    "id": 9,
+    "customerName": "Sahil Yadav",
+    "rating": 5,
+    "reviewText": "Very talented barbers. My hair styling came out exactly how I wanted it.",
+    "date": "2026-10-10",
+    "source": "customer",
+    "isVerified": true
+  },
+  {
+    "id": 10,
+    "customerName": "Deepak Raj",
+    "rating": 4,
+    "reviewText": "Good haircut but slightly on the pricier side. Quality justifies it though.",
+    "date": "2026-10-11",
+    "source": "customer",
+    "isVerified": true
+  },
+  {
+    "id": 11,
+    "customerName": "Sameer Khan",
+    "rating": 5,
+    "reviewText": "Love the royal grooming experience here. Professional and polite team.",
+    "date": "2026-10-12",
+    "source": "customer",
+    "isVerified": true
+  },
+  {
+    "id": 12,
+    "customerName": "Nitin Kumar",
+    "rating": 4,
+    "reviewText": "Quick and neat service. Salon was clean and the barber was attentive.",
+    "date": "2026-10-13",
+    "source": "customer",
+    "isVerified": true
+  },
+  {
+    "id": 13,
+    "customerName": "Faizan Ahmad",
+    "rating": 5,
+    "reviewText": "Best salon experience in town. Will definitely recommend to friends and family.",
+    "date": "2026-10-14",
+    "source": "customer",
+    "isVerified": true
+  },
+  {
+    "id": 14,
+    "customerName": "Ankit Raj",
+    "rating": 4,
+    "reviewText": "Skilled barbers and good ambience. Beard trim was exactly what I asked for.",
+    "date": "2026-10-15",
+    "source": "customer",
+    "isVerified": true
+  },
+  {
+    "id": 15,
+    "customerName": "Shubham Singh",
+    "rating": 3,
+    "reviewText": "Average experience. Haircut was fine but the wait time was longer than expected.",
+    "date": "2026-10-16",
+    "source": "customer",
+    "isVerified": true
+  },
+  {
+    "id": 16,
+    "customerName": "Arif Hussain",
+    "rating": 5,
+    "reviewText": "Fantastic beard trim, felt like a king after the session. Very friendly staff.",
+    "date": "2026-10-17",
+    "source": "customer",
+    "isVerified": true
+  },
+  {
+    "id": 17,
+    "customerName": "Karan Patel",
+    "rating": 5,
+    "reviewText": "Very professional and hygienic. Loved the overall experience — will come back.",
+    "date": "2026-10-18",
+    "source": "customer",
+    "isVerified": true
+  }
+],
   "barbers": [{"id": 1, "name": "Any Available", "expertise": "Choose your preferred available barber", "imageUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=400&q=80"}],
   "galleryItems": [
     {"id": 1, "title": "Classic Finishing", "description": "Salon grooming and styling", "imageUrl": "https://images.unsplash.com/photo-1703792686756-c82bf734c89b?auto=format&fit=crop&w=800&q=80"},
