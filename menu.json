@@ -333,10 +333,10 @@
   ],
   "popularServices": [
     {"id": 101, "name": "Signature Haircut", "description": "A detailed haircut with personalised styling.", "price": 250, "imageUrl": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=400&q=80"},
-    {"id": 102, "name": "Beard Styling", "description": "Precision beard shaping and finishing.", "price": 150, "imageUrl": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=400&q=80"},
-    {"id": 103, "name": "Haircut and Beard Combo", "description": "A coordinated haircut and beard grooming experience.", "price": 300, "imageUrl": "https://images.unsplash.com/photo-1599011176306-4a96f1516d4d?auto=format&fit=crop&w=400&q=80"},
+    {"id": 102, "name": "Beard Styling", "description": "Precision beard shaping and finishing.", "price": 150, "imageUrl": "https://plus.unsplash.com/premium_photo-1661288502656-7265af3e6b23?auto=format&fit=crop&w=400&q=80"},
+    {"id": 103, "name": "Haircut and Beard Combo", "description": "A coordinated haircut and beard grooming experience.", "price": 300, "imageUrl": "https://images.unsplash.com/photo-1640301133857-c4bc5789c1bb?auto=format&fit=crop&w=400&q=80"},
     {"id": 104, "name": "Clean Shave", "description": "Traditional clean shaving service.", "price": 100, "imageUrl": "https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&fit=crop&w=400&q=80"},
-    {"id": 105, "name": "Hair Colour", "description": "Hair colouring service tailored to your selected look.", "price": 699, "imageUrl": "https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=400&q=80"},
+    {"id": 105, "name": "Hair Colour", "description": "Hair colouring service tailored to your selected look.", "price": 699, "imageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=400&q=80"},
     {"id": 106, "name": "Head Massage", "description": "A relaxing scalp massage.", "price": 199, "imageUrl": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=400&q=80"},
     {"id": 107, "name": "Kids Haircut", "description": "A neat haircut for kids in a comfortable setting.", "price": 120, "imageUrl": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=400&q=80"},
     {"id": 108, "name": "Complete Grooming Package", "description": "A convenient combination of haircut, beard trim and styling.", "price": 399, "imageUrl": "https://images.unsplash.com/photo-1521593450399-9c6f5ebd0c76?auto=format&fit=crop&w=400&q=80"}
