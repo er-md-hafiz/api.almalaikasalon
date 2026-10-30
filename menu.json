@@ -504,9 +504,9 @@
     {"id": 11, "name": "Complete Grooming Package", "price": 399, "category": "PACKAGE", "description": "Haircut, beard trim and styling"}
   ],
   "offers": [
-    {"id": "offer_classic_haircut", "title": "Classic Haircut Deal", "description": "Classic haircut for men at a special salon price with precise styling and finishing.", "imageUrl": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=800&q=80", "price": 129, "originalPrice": 150, "badge": "Offer", "validUntil": "2026-12-31", "enabled": true},
-    {"id": "offer_combo_haircut_beard", "title": "Haircut + Beard Combo", "description": "Enjoy a coordinated haircut and beard trim at a bundled salon rate for a clean, polished finish.", "imageUrl": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=800&q=80", "price": 279, "originalPrice": 300, "badge": "Combo", "validUntil": "2026-12-31", "enabled": true},
-    {"id": "offer_complete_grooming", "title": "Complete Grooming Deal", "description": "Complete grooming package for men and kids with a premium haircut, beard trim, and styling finish.", "imageUrl": "https://images.unsplash.com/photo-1599011176306-4a96f1516d4d?auto=format&fit=crop&w=800&q=80", "price": 349, "originalPrice": 399, "badge": "Best Value", "validUntil": "2026-12-31", "enabled": true}
+    {"id": "offer_classic_haircut", "title": "Classic Haircut Deal", "description": "Classic haircut for men at a special salon price with precise styling and finishing.", "imageUrl": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=800&q=80", "price": 99, "originalPrice": 149, "badge": "Offer", "validUntil": "2026-12-31", "enabled": true},
+    {"id": "offer_combo_haircut_beard", "title": "Haircut + Beard Combo", "description": "Enjoy a coordinated haircut and beard trim at a bundled salon rate for a clean, polished finish.", "imageUrl": "https://images.unsplash.com/photo-1599198548056-806ca787a648?auto=format&fit=crop&w=800&q=80", "price": 199, "originalPrice": 299, "badge": "Combo", "validUntil": "2026-12-31", "enabled": true},
+    {"id": "offer_complete_grooming", "title": "Complete Grooming Deal", "description": "Complete grooming package for men and kids with a premium haircut, beard trim, and styling finish.", "imageUrl": "https://plus.unsplash.com/premium_photo-1661290481306-4841edd49719?auto=format&fit=crop&w=800&q=80", "price": 299, "originalPrice": 399, "badge": "Best Value", "validUntil": "2026-12-31", "enabled": true}
   ],
   "reviews": [
   {
@@ -672,12 +672,12 @@
     {"id": 5, "title": "Style & Finish", "description": "Luxury grooming session", "imageUrl": "https://images.unsplash.com/photo-1605497788044-5a32c7078486?auto=format&fit=crop&w=800&q=80"},
     {"id": 6, "title": "Modern Grooming", "description": "Contemporary barber styling", "imageUrl": "https://images.unsplash.com/photo-1614438865362-9137f7e3036e?auto=format&fit=crop&w=800&q=80"},
     {"id": 7, "title": "Royal Look", "description": "Confident finish for every occasion", "imageUrl": "https://images.unsplash.com/photo-1637613345152-126dff18b8fa?auto=format&fit=crop&w=800&q=80"},
-    {"id": 8, "title": "Classic Fade", "description": "Clean cut with detailed finishing", "imageUrl": "https://images.unsplash.com/photo-1521593450399-9c6f5ebd0c76?auto=format&fit=crop&w=800&q=80"},
+    {"id": 8, "title": "Classic Fade", "description": "Clean cut with detailed finishing", "imageUrl": "https://images.unsplash.com/photo-1757689373248-a6cd07328ba5?auto=format&fit=crop&w=800&q=80"},
     {"id": 9, "title": "Beard Sculpting", "description": "Neatly shaped beard for a polished look", "imageUrl": "https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&fit=crop&w=800&q=80"},
     {"id": 10, "title": "Fresh Shave", "description": "Traditional clean shave and skin care", "imageUrl": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=800&q=80"},
     {"id": 11, "title": "Hair Colour Glow", "description": "Modern colour tones and finishing", "imageUrl": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=800&q=80"},
     {"id": 12, "title": "Scalp Care Ritual", "description": "Relaxing treatment for healthy hair", "imageUrl": "https://images.unsplash.com/photo-1521593450399-9c6f5ebd0c76?auto=format&fit=crop&w=800&q=80"},
-    {"id": 13, "title": "Kid's Smooth Cut", "description": "Comfortable grooming for young clients", "imageUrl": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=800&q=80"},
+    {"id": 13, "title": "Kid's Smooth Cut", "description": "Comfortable grooming for young clients", "imageUrl": "https://images.unsplash.com/photo-1722351153083-e32ff83a0c8a?auto=format&fit=crop&w=800&q=80"},
     {"id": 14, "title": "Barber Chair Detail", "description": "Professional salon setup and tools", "imageUrl": "https://images.unsplash.com/photo-1556228578-8c89e6adf883?auto=format&fit=crop&w=800&q=80"},
     {"id": 15, "title": "Grooming Mirror", "description": "A fresh look in a premium salon space", "imageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80"},
     {"id": 16, "title": "Precision Styling", "description": "Sharp finish and refined detailing", "imageUrl": "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=800&q=80"},
