@@ -243,23 +243,124 @@
     "preserveBackStackPerTab": true
   },
   "home": {
-    "enabled": true,
-    "screenTitle": "Al-Malaika Salon",
-    "showToolbar": true,
-    "showDrawerButton": true,
-    "showGreeting": false,
-    "sections": [
-      {"id": "home_banners", "type": "banner_carousel", "title": "Featured", "enabled": true, "order": 1, "dataSource": "banners", "itemAction": {"type": "navigate", "destination": "services"}},
-      {"id": "home_quick_services", "type": "service_grid", "title": "Quick Services", "enabled": true, "order": 2, "dataSource": "quickServices", "maxItems": 6, "showViewAll": true, "viewAllDestination": "services"},
-      {"id": "home_popular_services", "type": "service_list_horizontal", "title": "Popular Services", "enabled": true, "order": 3, "dataSource": "popularServices", "maxItems": 8, "showViewAll": true, "viewAllDestination": "services"},
-      {"id": "home_why_choose_us", "type": "feature_grid", "title": "Why Choose Us", "enabled": true, "order": 4, "dataSource": "whyChooseUs"},
-      {"id": "home_gallery", "type": "gallery_preview", "title": "Our Gallery", "enabled": true, "order": 5, "dataSource": "galleryItems", "maxItems": 3, "showViewAll": true, "viewAllDestination": "gallery"},
-      {"id": "home_offers", "type": "offer_list", "title": "Special Offers", "enabled": true, "order": 6, "dataSource": "offers", "hideWhenEmpty": true, "showViewAll": true, "viewAllDestination": "offers"},
-      {"id": "home_reviews", "type": "review_list", "title": "Customer Reviews", "enabled": true, "order": 7, "dataSource": "reviews", "hideWhenEmpty": true, "showViewAll": true, "viewAllDestination": "reviews"},
-      {"id": "home_location", "type": "salon_location_card", "title": "Visit Our Salon", "enabled": true, "order": 8, "dataSource": "salon", "showAddress": true, "showOpeningHours": true, "action": {"type": "navigate", "destination": "location"}},
-      {"id": "home_franchise", "type": "franchise_banner", "title": "Franchise Opportunities", "enabled": true, "order": 9, "dataSource": "franchise", "hideWhenDisabled": true, "action": {"type": "navigate", "destination": "franchise"}}
-    ]
-  },
+  "enabled": true,
+  "screenTitle": "Al-Malaika Salon",
+  "showToolbar": true,
+  "showDrawerButton": true,
+  "showGreeting": false,
+  "sections": [
+    {
+      "id": "home_banners",
+      "type": "banner_carousel",
+      "title": "Featured",
+      "enabled": true,
+      "order": 1,
+      "dataSource": "banners",
+      "itemAction": {
+        "type": "navigate",
+        "destination": "services"
+      }
+    },
+    {
+      "id": "home_quick_services",
+      "type": "service_grid",
+      "title": "Quick Services",
+      "enabled": true,
+      "order": 2,
+      "dataSource": "quickServices",
+      "maxItems": 6,
+      "showViewAll": true,
+      "viewAllDestination": "services"
+    },
+    {
+      "id": "home_popular_services",
+      "type": "service_list_horizontal",
+      "title": "Popular Services",
+      "enabled": true,
+      "order": 3,
+      "dataSource": "popularServices",
+      "maxItems": 8,
+      "showViewAll": true,
+      "viewAllDestination": "services"
+    },
+    {
+      "id": "home_services",
+      "type": "service_grid",
+      "title": "Our Services",
+      "enabled": true,
+      "order": 4,
+      "dataSource": "homeServices"
+    },
+    {
+      "id": "home_why_choose_us",
+      "type": "feature_grid",
+      "title": "Why Choose Us",
+      "enabled": true,
+      "order": 5,
+      "dataSource": "whyChooseUs"
+    },
+    {
+      "id": "home_gallery",
+      "type": "gallery_preview",
+      "title": "Our Gallery",
+      "enabled": true,
+      "order": 6,
+      "dataSource": "galleryItems",
+      "maxItems": 3,
+      "showViewAll": true,
+      "viewAllDestination": "gallery"
+    },
+    {
+      "id": "home_offers",
+      "type": "offer_list",
+      "title": "Special Offers",
+      "enabled": true,
+      "order": 7,
+      "dataSource": "offers",
+      "hideWhenEmpty": true,
+      "showViewAll": true,
+      "viewAllDestination": "offers"
+    },
+    {
+      "id": "home_reviews",
+      "type": "review_list",
+      "title": "Customer Reviews",
+      "enabled": true,
+      "order": 8,
+      "dataSource": "reviews",
+      "hideWhenEmpty": true,
+      "showViewAll": true,
+      "viewAllDestination": "reviews"
+    },
+    {
+      "id": "home_location",
+      "type": "salon_location_card",
+      "title": "Visit Our Salon",
+      "enabled": true,
+      "order": 9,
+      "dataSource": "salon",
+      "showAddress": true,
+      "showOpeningHours": true,
+      "action": {
+        "type": "navigate",
+        "destination": "location"
+      }
+    },
+    {
+      "id": "home_franchise",
+      "type": "franchise_banner",
+      "title": "Franchise Opportunities",
+      "enabled": true,
+      "order": 10,
+      "dataSource": "franchise",
+      "hideWhenDisabled": true,
+      "action": {
+        "type": "navigate",
+        "destination": "franchise"
+      }
+    }
+  ]
+},
   "featureFlags": {
     "onboarding": true,
     "login": true,
